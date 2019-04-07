@@ -1,0 +1,140 @@
+[
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.jpt.benchmarks.java.ScalarEvolutionAndLoopOptimizationBenchmark.reduction_formula",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/jdk-12/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "12",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "12+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "16384"
+        },
+        "primaryMetric" : {
+            "score" : 2.7224636734372765,
+            "scoreError" : 0.1297399978831735,
+            "scoreConfidence" : [
+                2.5927236755541028,
+                2.85220367132045
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.6009831077989456,
+                "50.0" : 2.6690391135713867,
+                "90.0" : 2.884546431579567,
+                "95.0" : 2.8872210481172442,
+                "99.0" : 2.8872210481172442,
+                "99.9" : 2.8872210481172442,
+                "99.99" : 2.8872210481172442,
+                "99.999" : 2.8872210481172442,
+                "99.9999" : 2.8872210481172442,
+                "100.0" : 2.8872210481172442
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2.683836516199312,
+                    2.6690391135713867,
+                    2.744957881600515,
+                    2.661712286835619,
+                    2.6516946162420236
+                ],
+                [
+                    2.8872210481172442,
+                    2.8827633538877824,
+                    2.878971611326067,
+                    2.8717747041190482,
+                    2.878420212893824
+                ],
+                [
+                    2.605763121878071,
+                    2.6096683480298477,
+                    2.6088681668795166,
+                    2.6009831077989456,
+                    2.6012810121799452
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.jpt.benchmarks.java.ScalarEvolutionAndLoopOptimizationBenchmark.sum_from_0_to_N",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/jdk-12/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "12",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "12+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "size" : "16384"
+        },
+        "primaryMetric" : {
+            "score" : 4469.675948693167,
+            "scoreError" : 18.353629776448663,
+            "scoreConfidence" : [
+                4451.322318916718,
+                4488.029578469615
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4428.074568122051,
+                "50.0" : 4469.865544115544,
+                "90.0" : 4489.2865798677885,
+                "95.0" : 4489.320863031652,
+                "99.0" : 4489.320863031652,
+                "99.9" : 4489.320863031652,
+                "99.99" : 4489.320863031652,
+                "99.999" : 4489.320863031652,
+                "99.9999" : 4489.320863031652,
+                "100.0" : 4489.320863031652
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4488.169463840175,
+                    4489.320863031652,
+                    4489.263724425213,
+                    4474.713629347948,
+                    4488.066405513825
+                ],
+                [
+                    4471.706721806192,
+                    4460.339774176574,
+                    4469.865544115544,
+                    4460.614682744965,
+                    4458.191233692431
+                ],
+                [
+                    4428.074568122051,
+                    4457.5948910151565,
+                    4460.191965360707,
+                    4461.619729681506,
+                    4487.406033523564
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

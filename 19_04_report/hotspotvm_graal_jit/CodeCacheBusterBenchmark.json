@@ -1,0 +1,72 @@
+[
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.jpt.benchmarks.java.CodeCacheBusterBenchmark.code_cache_buster",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/jdk-12/bin/java",
+        "jvmArgs" : [
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCI",
+            "-XX:+UseJVMCICompiler"
+        ],
+        "jdkVersion" : "12",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "12+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 830.6265878540876,
+            "scoreError" : 25.452077674348942,
+            "scoreConfidence" : [
+                805.1745101797386,
+                856.0786655284365
+            ],
+            "scorePercentiles" : {
+                "0.0" : 801.5248349358974,
+                "50.0" : 820.9101476620181,
+                "90.0" : 874.6810549986184,
+                "95.0" : 886.721659574468,
+                "99.0" : 886.721659574468,
+                "99.9" : 886.721659574468,
+                "99.99" : 886.721659574468,
+                "99.999" : 886.721659574468,
+                "99.9999" : 886.721659574468,
+                "100.0" : 886.721659574468
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    866.6539852813853,
+                    846.6063104906938,
+                    815.8816582381729,
+                    814.7245309446254,
+                    812.0819878246754
+                ],
+                [
+                    886.721659574468,
+                    838.4794585079632,
+                    820.9101476620181,
+                    824.806361088211,
+                    813.4874113821138
+                ],
+                [
+                    856.4811455479452,
+                    816.4489486133768,
+                    828.7116713576158,
+                    815.8787063621534,
+                    801.5248349358974
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

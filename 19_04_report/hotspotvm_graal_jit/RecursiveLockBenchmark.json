@@ -1,0 +1,146 @@
+[
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.jpt.benchmarks.java.locks.RecursiveLockBenchmark.lock_baseline",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/jdk-12/bin/java",
+        "jvmArgs" : [
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCI",
+            "-XX:+UseJVMCICompiler"
+        ],
+        "jdkVersion" : "12",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "12+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "42"
+        },
+        "primaryMetric" : {
+            "score" : 4.544304745031863,
+            "scoreError" : 0.2444738834418054,
+            "scoreConfidence" : [
+                4.299830861590058,
+                4.788778628473668
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.232723569253869,
+                "50.0" : 4.668283393701071,
+                "90.0" : 4.772227124898052,
+                "95.0" : 4.807150501254969,
+                "99.0" : 4.807150501254969,
+                "99.9" : 4.807150501254969,
+                "99.99" : 4.807150501254969,
+                "99.999" : 4.807150501254969,
+                "99.9999" : 4.807150501254969,
+                "100.0" : 4.807150501254969
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.723455689504978,
+                    4.807150501254969,
+                    4.686256528855317,
+                    4.748944873993441,
+                    4.694392566426993
+                ],
+                [
+                    4.240898439631712,
+                    4.232723569253869,
+                    4.241375440333181,
+                    4.2354789531064565,
+                    4.236099986571704
+                ],
+                [
+                    4.696959735936227,
+                    4.612389415195863,
+                    4.679459006796195,
+                    4.668283393701071,
+                    4.660703074915968
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.jpt.benchmarks.java.locks.RecursiveLockBenchmark.lock_recursive_10x",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/jdk-12/bin/java",
+        "jvmArgs" : [
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+EnableJVMCI",
+            "-XX:+UseJVMCICompiler"
+        ],
+        "jdkVersion" : "12",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "12+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "42"
+        },
+        "primaryMetric" : {
+            "score" : 12.418690137518876,
+            "scoreError" : 0.4920498356682848,
+            "scoreConfidence" : [
+                11.926640301850592,
+                12.91073997318716
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.761523996892167,
+                "50.0" : 12.719363810862442,
+                "90.0" : 12.775742176998879,
+                "95.0" : 12.776630070993917,
+                "99.0" : 12.776630070993917,
+                "99.9" : 12.776630070993917,
+                "99.99" : 12.776630070993917,
+                "99.999" : 12.776630070993917,
+                "99.9999" : 12.776630070993917,
+                "100.0" : 12.776630070993917
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    12.729900386890243,
+                    12.72233041463775,
+                    12.721309887712954,
+                    12.719363810862442,
+                    12.67705202432449
+                ],
+                [
+                    11.846071766024167,
+                    11.790604351963756,
+                    11.780229338296317,
+                    11.778632740719225,
+                    11.761523996892167
+                ],
+                [
+                    12.77357835573626,
+                    12.735508938967676,
+                    12.775150247668853,
+                    12.776630070993917,
+                    12.692465731092925
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

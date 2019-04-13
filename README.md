@@ -4,6 +4,8 @@ Current repository stores the only results across multiple Just In Time (JIT) Co
 
 Please visit the [web site](https://www.ionutbalosin.com) for original posts.
 
+For the full copyright and license information, please view the LICENSE file that was distributed with this source code.
+
 ## Reports History
 
 ### JVM JIT Compiler Benchmarks Report 19.04
@@ -13,5 +15,3 @@ Original [article](https://ionutbalosin.com/2019/04/jvm-jit-compilers-benchmarks
 JIT Compilers included:   
 * HotSpot C1/C2 JIT
 * HotSpot Graal JIT
-
-

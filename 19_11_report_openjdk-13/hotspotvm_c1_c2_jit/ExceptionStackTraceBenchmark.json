@@ -1,0 +1,1039 @@
+[
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.constant_exc",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "1"
+        },
+        "primaryMetric" : {
+            "score" : 2.8596641388852704,
+            "scoreError" : 0.05891478655939609,
+            "scoreConfidence" : [
+                2.8007493523258744,
+                2.9185789254446663
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.664240281668734,
+                "50.0" : 2.8687944383133694,
+                "90.0" : 2.892727144987611,
+                "95.0" : 2.896453422890288,
+                "99.0" : 2.896453422890288,
+                "99.9" : 2.896453422890288,
+                "99.99" : 2.896453422890288,
+                "99.999" : 2.896453422890288,
+                "99.9999" : 2.896453422890288,
+                "100.0" : 2.896453422890288
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2.896453422890288,
+                    2.8834871973160645,
+                    2.870466267093765,
+                    2.8687846149470912,
+                    2.8631868427486658
+                ],
+                [
+                    2.8687944383133694,
+                    2.8654120524330575,
+                    2.8649380139576333,
+                    2.8873009899063247,
+                    2.861443900720691
+                ],
+                [
+                    2.664240281668734,
+                    2.89024295971916,
+                    2.8738537406222626,
+                    2.8690679071491654,
+                    2.867289453792785
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.constant_exc",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "64"
+        },
+        "primaryMetric" : {
+            "score" : 65.4251475780016,
+            "scoreError" : 2.1459289867307154,
+            "scoreConfidence" : [
+                63.27921859127088,
+                67.57107656473231
+            ],
+            "scorePercentiles" : {
+                "0.0" : 63.40680004528915,
+                "50.0" : 63.95055970539987,
+                "90.0" : 67.7946889970119,
+                "95.0" : 67.81139928499002,
+                "99.0" : 67.81139928499002,
+                "99.9" : 67.81139928499002,
+                "99.99" : 67.81139928499002,
+                "99.999" : 67.81139928499002,
+                "99.9999" : 67.81139928499002,
+                "100.0" : 67.81139928499002
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    67.37755106798413,
+                    67.29797888797903,
+                    67.81139928499002,
+                    67.78354880502648,
+                    63.64071479442111
+                ],
+                [
+                    67.36039830635754,
+                    67.20012155570606,
+                    67.58394609841632,
+                    63.73156954181699,
+                    63.95055970539987
+                ],
+                [
+                    63.46664617274019,
+                    63.40680004528915,
+                    63.463275885120005,
+                    63.656258804397,
+                    63.646444714380046
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.constant_exc",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 123.9037661396177,
+            "scoreError" : 3.1118927662146105,
+            "scoreConfidence" : [
+                120.79187337340309,
+                127.01565890583231
+            ],
+            "scorePercentiles" : {
+                "0.0" : 119.68152535698427,
+                "50.0" : 125.76486982206505,
+                "90.0" : 126.05153805922744,
+                "95.0" : 126.0552569895203,
+                "99.0" : 126.0552569895203,
+                "99.9" : 126.0552569895203,
+                "99.99" : 126.0552569895203,
+                "99.999" : 126.0552569895203,
+                "99.9999" : 126.0552569895203,
+                "100.0" : 126.0552569895203
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    125.85893756209235,
+                    126.0552569895203,
+                    125.96213239227112,
+                    126.04905877236553,
+                    126.04515747586228
+                ],
+                [
+                    119.68152535698427,
+                    119.94070444380965,
+                    119.99516701129218,
+                    119.98987705234424,
+                    120.05800981315126
+                ],
+                [
+                    126.02668497796311,
+                    125.92762364418888,
+                    125.56173268329216,
+                    125.63975409706309,
+                    125.76486982206505
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.get_stack_trace",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "1"
+        },
+        "primaryMetric" : {
+            "score" : 6148.336804719017,
+            "scoreError" : 164.86846139056607,
+            "scoreConfidence" : [
+                5983.468343328451,
+                6313.205266109583
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5940.112163211289,
+                "50.0" : 6111.388842103462,
+                "90.0" : 6382.03765376283,
+                "95.0" : 6447.360564905822,
+                "99.0" : 6447.360564905822,
+                "99.9" : 6447.360564905822,
+                "99.99" : 6447.360564905822,
+                "99.999" : 6447.360564905822,
+                "99.9999" : 6447.360564905822,
+                "100.0" : 6447.360564905822
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6083.906781455213,
+                    5973.031240200667,
+                    6161.185893960416,
+                    6111.388842103462,
+                    6447.360564905822
+                ],
+                [
+                    6131.690138487442,
+                    6014.603773255811,
+                    6031.948610087377,
+                    6049.108499967638,
+                    6035.0163968756015
+                ],
+                [
+                    6301.960566614655,
+                    6270.880449437075,
+                    6334.369103888618,
+                    6338.489046334168,
+                    5940.112163211289
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.get_stack_trace",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "64"
+        },
+        "primaryMetric" : {
+            "score" : 21475.336400848806,
+            "scoreError" : 715.9549432498748,
+            "scoreConfidence" : [
+                20759.38145759893,
+                22191.29134409868
+            ],
+            "scorePercentiles" : {
+                "0.0" : 20611.09784781793,
+                "50.0" : 21239.004549306454,
+                "90.0" : 22435.851097277842,
+                "95.0" : 22566.03505545464,
+                "99.0" : 22566.03505545464,
+                "99.9" : 22566.03505545464,
+                "99.99" : 22566.03505545464,
+                "99.999" : 22566.03505545464,
+                "99.9999" : 22566.03505545464,
+                "100.0" : 22566.03505545464
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    20895.531158844915,
+                    21239.004549306454,
+                    21165.33922633926,
+                    21383.95704256825,
+                    20922.62031370629
+                ],
+                [
+                    20611.09784781793,
+                    20637.312035280982,
+                    22175.673855146768,
+                    22331.372031950978,
+                    22200.39711135235
+                ],
+                [
+                    22349.061791826647,
+                    21039.774422944618,
+                    21107.530378215914,
+                    21505.339191976105,
+                    22566.03505545464
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.get_stack_trace",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 37376.13696860333,
+            "scoreError" : 1271.6404220984728,
+            "scoreConfidence" : [
+                36104.49654650486,
+                38647.7773907018
+            ],
+            "scorePercentiles" : {
+                "0.0" : 35821.80990743792,
+                "50.0" : 37229.9395769268,
+                "90.0" : 38811.98118870331,
+                "95.0" : 38837.02932918044,
+                "99.0" : 38837.02932918044,
+                "99.9" : 38837.02932918044,
+                "99.99" : 38837.02932918044,
+                "99.999" : 38837.02932918044,
+                "99.9999" : 38837.02932918044,
+                "100.0" : 38837.02932918044
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    38481.91735387718,
+                    37519.64584122792,
+                    36880.05157566706,
+                    36029.203362168046,
+                    36023.51877508087
+                ],
+                [
+                    35821.80990743792,
+                    38795.28242838522,
+                    37229.9395769268,
+                    36259.393849076856,
+                    36515.60141749707
+                ],
+                [
+                    36283.56342249249,
+                    38837.02932918044,
+                    38678.20168167982,
+                    38622.24399918122,
+                    38664.652009171085
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.lambda_function_exc",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "1"
+        },
+        "primaryMetric" : {
+            "score" : 1100.8631159102438,
+            "scoreError" : 24.571370651108747,
+            "scoreConfidence" : [
+                1076.291745259135,
+                1125.4344865613525
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1067.0942147105925,
+                "50.0" : 1098.694567022919,
+                "90.0" : 1140.9014275951135,
+                "95.0" : 1142.127593402581,
+                "99.0" : 1142.127593402581,
+                "99.9" : 1142.127593402581,
+                "99.99" : 1142.127593402581,
+                "99.999" : 1142.127593402581,
+                "99.9999" : 1142.127593402581,
+                "100.0" : 1142.127593402581
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    1142.127593402581,
+                    1098.952820907873,
+                    1087.9410342791296,
+                    1140.0839837234687,
+                    1067.0942147105925
+                ],
+                [
+                    1098.694567022919,
+                    1114.852550175012,
+                    1107.6393285958184,
+                    1130.4373938252832,
+                    1081.0053689062422
+                ],
+                [
+                    1071.1088976032506,
+                    1103.4112843500593,
+                    1096.7771013742195,
+                    1087.455399072775,
+                    1085.3652007044295
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.lambda_function_exc",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "64"
+        },
+        "primaryMetric" : {
+            "score" : 3542.2865265164432,
+            "scoreError" : 95.11024400954258,
+            "scoreConfidence" : [
+                3447.176282506901,
+                3637.3967705259856
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3371.836526125373,
+                "50.0" : 3546.4795934688036,
+                "90.0" : 3646.8116244769285,
+                "95.0" : 3667.5684034178053,
+                "99.0" : 3667.5684034178053,
+                "99.9" : 3667.5684034178053,
+                "99.99" : 3667.5684034178053,
+                "99.999" : 3667.5684034178053,
+                "99.9999" : 3667.5684034178053,
+                "100.0" : 3667.5684034178053
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3581.4346753392797,
+                    3610.239553207351,
+                    3632.9737718496776,
+                    3546.4795934688036,
+                    3496.9779248413724
+                ],
+                [
+                    3485.3882160427024,
+                    3371.836526125373,
+                    3624.9725884585882,
+                    3400.03149899446,
+                    3449.724052307964
+                ],
+                [
+                    3667.5684034178053,
+                    3543.5260738826746,
+                    3630.054674616355,
+                    3585.2517990460537,
+                    3507.838546148188
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.lambda_function_exc",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 6243.911064512775,
+            "scoreError" : 219.65489115631186,
+            "scoreConfidence" : [
+                6024.256173356463,
+                6463.565955669087
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5877.129958490812,
+                "50.0" : 6350.571365792633,
+                "90.0" : 6488.52272512946,
+                "95.0" : 6513.090135176061,
+                "99.0" : 6513.090135176061,
+                "99.9" : 6513.090135176061,
+                "99.99" : 6513.090135176061,
+                "99.999" : 6513.090135176061,
+                "99.9999" : 6513.090135176061,
+                "100.0" : 6513.090135176061
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6381.060246968094,
+                    6405.165272820088,
+                    5877.129958490812,
+                    6008.019016749976,
+                    6024.742832682978
+                ],
+                [
+                    6360.423394423932,
+                    6350.571365792633,
+                    6154.400263527639,
+                    5982.915920012253,
+                    6173.556989844738
+                ],
+                [
+                    6447.887408127644,
+                    6513.090135176061,
+                    6472.144451765059,
+                    6387.23750090218,
+                    6120.321210407551
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.new_exc",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "1"
+        },
+        "primaryMetric" : {
+            "score" : 1050.3161771684352,
+            "scoreError" : 35.14142061230205,
+            "scoreConfidence" : [
+                1015.1747565561332,
+                1085.4575977807372
+            ],
+            "scorePercentiles" : {
+                "0.0" : 998.7064667733066,
+                "50.0" : 1054.2783860111663,
+                "90.0" : 1102.85707952228,
+                "95.0" : 1103.241468990453,
+                "99.0" : 1103.241468990453,
+                "99.9" : 1103.241468990453,
+                "99.99" : 1103.241468990453,
+                "99.999" : 1103.241468990453,
+                "99.9999" : 1103.241468990453,
+                "100.0" : 1103.241468990453
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    1037.5380301534544,
+                    1043.9457823653063,
+                    1008.5274562250481,
+                    998.7064667733066,
+                    1020.1723802755778
+                ],
+                [
+                    1056.8898402925577,
+                    1102.600819876831,
+                    1082.1042173395433,
+                    1103.241468990453,
+                    1054.2783860111663
+                ],
+                [
+                    1056.9264340875857,
+                    1055.225614002654,
+                    1088.3384899082857,
+                    1025.1758728617415,
+                    1021.0713983630162
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.new_exc",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "64"
+        },
+        "primaryMetric" : {
+            "score" : 3456.565882497337,
+            "scoreError" : 100.8686775848022,
+            "scoreConfidence" : [
+                3355.6972049125347,
+                3557.4345600821393
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3289.890958222891,
+                "50.0" : 3422.855692273675,
+                "90.0" : 3580.510223186431,
+                "95.0" : 3615.868463985525,
+                "99.0" : 3615.868463985525,
+                "99.9" : 3615.868463985525,
+                "99.99" : 3615.868463985525,
+                "99.999" : 3615.868463985525,
+                "99.9999" : 3615.868463985525,
+                "100.0" : 3615.868463985525
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3556.9380626537018,
+                    3615.868463985525,
+                    3414.24198051253,
+                    3422.855692273675,
+                    3417.7824236622373
+                ],
+                [
+                    3521.249492158519,
+                    3289.890958222891,
+                    3422.4285650238794,
+                    3386.549043153749,
+                    3338.1882637819995
+                ],
+                [
+                    3497.83819699345,
+                    3530.153066170197,
+                    3351.3123405011133,
+                    3546.4776382420123,
+                    3536.7140501245776
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.new_exc",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 5906.607675214595,
+            "scoreError" : 172.78096948020232,
+            "scoreConfidence" : [
+                5733.826705734392,
+                6079.388644694797
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5612.893204373933,
+                "50.0" : 5965.607336926532,
+                "90.0" : 6067.0503462276165,
+                "95.0" : 6080.24172723984,
+                "99.0" : 6080.24172723984,
+                "99.9" : 6080.24172723984,
+                "99.99" : 6080.24172723984,
+                "99.999" : 6080.24172723984,
+                "99.9999" : 6080.24172723984,
+                "100.0" : 6080.24172723984
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6080.24172723984,
+                    5865.254886101904,
+                    6058.256092219467,
+                    6042.508460842659,
+                    5965.607336926532
+                ],
+                [
+                    5950.446077416314,
+                    6002.4668806317395,
+                    6014.249999849646,
+                    6007.763092047598,
+                    5922.541784473538
+                ],
+                [
+                    6016.043281878762,
+                    5612.893204373933,
+                    5778.589057908834,
+                    5633.770762431375,
+                    5648.482483876762
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.new_exc_override_fillInStackTrace",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "1"
+        },
+        "primaryMetric" : {
+            "score" : 9.555019802373083,
+            "scoreError" : 0.1773365422860945,
+            "scoreConfidence" : [
+                9.37768326008699,
+                9.732356344659177
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.193368751085055,
+                "50.0" : 9.600479866882168,
+                "90.0" : 9.75268621416463,
+                "95.0" : 9.80571325957615,
+                "99.0" : 9.80571325957615,
+                "99.9" : 9.80571325957615,
+                "99.99" : 9.80571325957615,
+                "99.999" : 9.80571325957615,
+                "99.9999" : 9.80571325957615,
+                "100.0" : 9.80571325957615
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.348122289322783,
+                    9.600479866882168,
+                    9.80571325957615,
+                    9.193368751085055,
+                    9.703686945674624
+                ],
+                [
+                    9.602151518524783,
+                    9.656122385468004,
+                    9.417407729942504,
+                    9.697288112424726,
+                    9.351806090200924
+                ],
+                [
+                    9.554659715429898,
+                    9.71733485055695,
+                    9.526439636825877,
+                    9.532292710011056,
+                    9.618423173670717
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.new_exc_override_fillInStackTrace",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "64"
+        },
+        "primaryMetric" : {
+            "score" : 75.73519595410737,
+            "scoreError" : 1.657076937585683,
+            "scoreConfidence" : [
+                74.07811901652168,
+                77.39227289169305
+            ],
+            "scorePercentiles" : {
+                "0.0" : 73.21937768728155,
+                "50.0" : 75.60822406820968,
+                "90.0" : 77.66982999050185,
+                "95.0" : 77.76067721594926,
+                "99.0" : 77.76067721594926,
+                "99.9" : 77.76067721594926,
+                "99.99" : 77.76067721594926,
+                "99.999" : 77.76067721594926,
+                "99.9999" : 77.76067721594926,
+                "100.0" : 77.76067721594926
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    76.86893830874615,
+                    73.21937768728155,
+                    75.04107157367923,
+                    75.57085415449386,
+                    74.35717416412363
+                ],
+                [
+                    77.60926517353691,
+                    75.3129757722078,
+                    77.76067721594926,
+                    73.57790139485547,
+                    75.60822406820968
+                ],
+                [
+                    77.45216754883099,
+                    75.65755770844316,
+                    77.39771275357242,
+                    76.8858671674826,
+                    73.70817462019795
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.21",
+        "benchmark" : "com.ionutbalosin.jvm.jit.benchmark.ExceptionStackTraceBenchmark.new_exc_override_fillInStackTrace",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/usr/lib/jvm/openjdk-13/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "13",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "13+33",
+        "warmupIterations" : 5,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "message" : "Something wrong happened.",
+            "stackDepth" : "128"
+        },
+        "primaryMetric" : {
+            "score" : 134.68236258303662,
+            "scoreError" : 3.4361220700282944,
+            "scoreConfidence" : [
+                131.24624051300833,
+                138.1184846530649
+            ],
+            "scorePercentiles" : {
+                "0.0" : 129.6887689939119,
+                "50.0" : 134.1589690984486,
+                "90.0" : 138.10593491678182,
+                "95.0" : 138.27103155496835,
+                "99.0" : 138.27103155496835,
+                "99.9" : 138.27103155496835,
+                "99.99" : 138.27103155496835,
+                "99.999" : 138.27103155496835,
+                "99.9999" : 138.27103155496835,
+                "100.0" : 138.27103155496835
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    136.91972896722697,
+                    137.85301611753155,
+                    138.27103155496835,
+                    137.9613520453246,
+                    137.91472659660775
+                ],
+                [
+                    134.1589690984486,
+                    130.41787213614586,
+                    131.46644770643775,
+                    131.58763435346395,
+                    131.45319139838165
+                ],
+                [
+                    137.50560352037027,
+                    137.99587049132413,
+                    133.2956480524906,
+                    133.74557771291504,
+                    129.6887689939119
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

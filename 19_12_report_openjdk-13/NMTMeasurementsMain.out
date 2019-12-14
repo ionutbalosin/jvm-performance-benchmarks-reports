@@ -1,0 +1,614 @@
+Running application with Java version [13] 
+-XX:+UnlockDiagnosticVMOptions
+-XX:+PrintNMTStatistics
+-XX:NativeMemoryTracking=summary
+-XX:+UseSerialGC
+-Xms4g
+-Xmx4g
+-XX:+AlwaysPreTouch
+-Didea.launcher.port=43463
+-Didea.launcher.bin.path=/home/ionutbalosin/Kit/idea-IC-191.6707.61/bin
+-Dfile.encoding=UTF-8
+
+Native Memory Tracking:
+
+Total: reserved=5540383KB, committed=4235823KB
+-                 Java Heap (reserved=4194304KB, committed=4194304KB)
+                            (mmap: reserved=4194304KB, committed=4194304KB) 
+ 
+-                     Class (reserved=1056932KB, committed=5028KB)
+                            (classes #1060)
+                            (  instance classes #930, array classes #130)
+                            (malloc=164KB #1551) 
+                            (mmap: reserved=1056768KB, committed=4864KB) 
+                            (  Metadata:   )
+                            (    reserved=8192KB, committed=4352KB)
+                            (    used=1002KB)
+                            (    free=3350KB)
+                            (    waste=0KB =0,00%)
+                            (  Class space:)
+                            (    reserved=1048576KB, committed=512KB)
+                            (    used=122KB)
+                            (    free=390KB)
+                            (    waste=0KB =0,00%)
+ 
+-                    Thread (reserved=13417KB, committed=901KB)
+                            (thread #12)
+                            (stack: reserved=13356KB, committed=840KB)
+                            (malloc=46KB #80) 
+                            (arena=15KB #24)
+ 
+-                      Code (reserved=247748KB, committed=7608KB)
+                            (malloc=60KB #636) 
+                            (mmap: reserved=247688KB, committed=7548KB) 
+ 
+-                        GC (reserved=13694KB, committed=13694KB)
+                            (malloc=34KB #158) 
+                            (mmap: reserved=13660KB, committed=13660KB) 
+ 
+-                  Compiler (reserved=134KB, committed=134KB)
+                            (malloc=3KB #40) 
+                            (arena=131KB #5)
+ 
+-                  Internal (reserved=544KB, committed=544KB)
+                            (malloc=508KB #873) 
+                            (mmap: reserved=36KB, committed=36KB) 
+ 
+-                     Other (reserved=8KB, committed=8KB)
+                            (malloc=8KB #1) 
+ 
+-                    Symbol (reserved=1204KB, committed=1204KB)
+                            (malloc=844KB #4299) 
+                            (arena=360KB #1)
+ 
+-    Native Memory Tracking (reserved=155KB, committed=155KB)
+                            (malloc=4KB #53) 
+                            (tracking overhead=151KB)
+ 
+-        Shared class space (reserved=11208KB, committed=11208KB)
+                            (mmap: reserved=11208KB, committed=11208KB) 
+ 
+-               Arena Chunk (reserved=911KB, committed=911KB)
+                            (malloc=911KB) 
+ 
+-                   Logging (reserved=5KB, committed=5KB)
+                            (malloc=5KB #197) 
+ 
+-                 Arguments (reserved=20KB, committed=20KB)
+                            (malloc=20KB #497) 
+ 
+-                    Module (reserved=59KB, committed=59KB)
+                            (malloc=59KB #1034) 
+ 
+-                 Safepoint (reserved=8KB, committed=8KB)
+                            (mmap: reserved=8KB, committed=8KB) 
+ 
+-           Synchronization (reserved=32KB, committed=32KB)
+                            (malloc=32KB #183)
+
+
+Running application with Java version [13]
+-XX:+UnlockDiagnosticVMOptions
+-XX:+PrintNMTStatistics
+-XX:NativeMemoryTracking=summary
+-XX:+UseParallelOldGC
+-Xms4g
+-Xmx4g
+-XX:+AlwaysPreTouch
+-Didea.launcher.port=41907
+-Didea.launcher.bin.path=/home/ionutbalosin/Kit/idea-IC-191.6707.61/bin
+-Dfile.encoding=UTF-8
+
+Native Memory Tracking:
+
+Total: reserved=5709832KB, committed=4404256KB
+-                 Java Heap (reserved=4194304KB, committed=4194304KB)
+                            (mmap: reserved=4194304KB, committed=4194304KB)
+
+-                     Class (reserved=1056932KB, committed=5028KB)
+                            (classes #1060)
+                            (  instance classes #930, array classes #130)
+                            (malloc=164KB #1554)
+                            (mmap: reserved=1056768KB, committed=4864KB)
+                            (  Metadata:   )
+                            (    reserved=8192KB, committed=4352KB)
+                            (    used=1006KB)
+                            (    free=3346KB)
+                            (    waste=0KB =0,00%)
+                            (  Class space:)
+                            (    reserved=1048576KB, committed=512KB)
+                            (    used=122KB)
+                            (    free=390KB)
+                            (    waste=0KB =0,00%)
+
+-                    Thread (reserved=14446KB, committed=914KB)
+                            (thread #13)
+                            (stack: reserved=14380KB, committed=848KB)
+                            (malloc=49KB #86)
+                            (arena=16KB #26)
+
+-                      Code (reserved=247748KB, committed=7608KB)
+                            (malloc=60KB #641)
+                            (mmap: reserved=247688KB, committed=7548KB)
+
+-                        GC (reserved=182105KB, committed=182105KB)
+                            (malloc=28861KB #222)
+                            (mmap: reserved=153244KB, committed=153244KB)
+
+-                  Compiler (reserved=134KB, committed=134KB)
+                            (malloc=3KB #40)
+                            (arena=131KB #5)
+
+-                  Internal (reserved=550KB, committed=550KB)
+                            (malloc=514KB #942)
+                            (mmap: reserved=36KB, committed=36KB)
+
+-                     Other (reserved=8KB, committed=8KB)
+                            (malloc=8KB #1)
+
+-                    Symbol (reserved=1204KB, committed=1204KB)
+                            (malloc=844KB #4299)
+                            (arena=360KB #1)
+
+-    Native Memory Tracking (reserved=158KB, committed=158KB)
+                            (malloc=5KB #60)
+                            (tracking overhead=154KB)
+
+-        Shared class space (reserved=11208KB, committed=11208KB)
+                            (mmap: reserved=11208KB, committed=11208KB)
+
+-               Arena Chunk (reserved=912KB, committed=912KB)
+                            (malloc=912KB)
+
+-                   Logging (reserved=5KB, committed=5KB)
+                            (malloc=5KB #197)
+
+-                 Arguments (reserved=20KB, committed=20KB)
+                            (malloc=20KB #497)
+
+-                    Module (reserved=59KB, committed=59KB)
+                            (malloc=59KB #1034)
+
+-                 Safepoint (reserved=8KB, committed=8KB)
+                            (mmap: reserved=8KB, committed=8KB)
+
+-           Synchronization (reserved=32KB, committed=32KB)
+                            (malloc=32KB #187)
+
+Running application with Java version [13]
+-XX:+UnlockDiagnosticVMOptions
+-XX:+PrintNMTStatistics
+-XX:NativeMemoryTracking=summary
+-XX:+UseConcMarkSweepGC
+-Xms4g
+-Xmx4g
+-XX:+AlwaysPreTouch
+-Didea.launcher.port=40311
+-Didea.launcher.bin.path=/home/ionutbalosin/Kit/idea-IC-191.6707.61/bin
+-Dfile.encoding=UTF-8
+
+Native Memory Tracking:
+
+Total: reserved=5652937KB, committed=4345325KB
+-                 Java Heap (reserved=4194304KB, committed=4194304KB)
+                            (mmap: reserved=4194304KB, committed=4194304KB)
+
+-                     Class (reserved=1056933KB, committed=5029KB)
+                            (classes #1060)
+                            (  instance classes #930, array classes #130)
+                            (malloc=165KB #1555)
+                            (mmap: reserved=1056768KB, committed=4864KB)
+                            (  Metadata:   )
+                            (    reserved=8192KB, committed=4352KB)
+                            (    used=1003KB)
+                            (    free=3349KB)
+                            (    waste=0KB =0,00%)
+                            (  Class space:)
+                            (    reserved=1048576KB, committed=512KB)
+                            (    used=122KB)
+                            (    free=390KB)
+                            (    waste=0KB =0,00%)
+
+-                    Thread (reserved=16502KB, committed=934KB)
+                            (thread #15)
+                            (stack: reserved=16428KB, committed=860KB)
+                            (malloc=55KB #98)
+                            (arena=19KB #30)
+
+-                      Code (reserved=247749KB, committed=7609KB)
+                            (malloc=61KB #639)
+                            (mmap: reserved=247688KB, committed=7548KB)
+
+-                        GC (reserved=34574KB, committed=34574KB)
+                            (malloc=19514KB #225)
+                            (mmap: reserved=15060KB, committed=15060KB)
+
+-                  Compiler (reserved=148KB, committed=148KB)
+                            (malloc=17KB #49)
+                            (arena=131KB #5)
+
+-                  Internal (reserved=550KB, committed=550KB)
+                            (malloc=514KB #902)
+                            (mmap: reserved=36KB, committed=36KB)
+
+-                     Other (reserved=8KB, committed=8KB)
+                            (malloc=8KB #1)
+
+-                    Symbol (reserved=1204KB, committed=1204KB)
+                            (malloc=844KB #4299)
+                            (arena=360KB #1)
+
+-    Native Memory Tracking (reserved=162KB, committed=162KB)
+                            (malloc=5KB #62)
+                            (tracking overhead=158KB)
+
+-        Shared class space (reserved=11208KB, committed=11208KB)
+                            (mmap: reserved=11208KB, committed=11208KB)
+
+-               Arena Chunk (reserved=911KB, committed=911KB)
+                            (malloc=911KB)
+
+-                   Logging (reserved=5KB, committed=5KB)
+                            (malloc=5KB #197)
+
+-                 Arguments (reserved=20KB, committed=20KB)
+                            (malloc=20KB #497)
+
+-                    Module (reserved=59KB, committed=59KB)
+                            (malloc=59KB #1034)
+
+-                 Safepoint (reserved=8KB, committed=8KB)
+                            (mmap: reserved=8KB, committed=8KB)
+
+-           Synchronization (reserved=77KB, committed=77KB)
+                            (malloc=77KB #448)
+
+-                   Unknown (reserved=88516KB, committed=88516KB)
+                            (mmap: reserved=88516KB, committed=88516KB)
+
+Running application with Java version [13]
+-XX:+UnlockDiagnosticVMOptions
+-XX:+PrintNMTStatistics
+-XX:NativeMemoryTracking=summary
+-XX:+UseG1GC
+-Xms4g
+-Xmx4g
+-XX:+AlwaysPreTouch
+-Didea.launcher.port=35755
+-Didea.launcher.bin.path=/home/ionutbalosin/Kit/idea-IC-191.6707.61/bin
+-Dfile.encoding=UTF-8
+
+Native Memory Tracking:
+
+Total: reserved=5748923KB, committed=4439283KB
+-                 Java Heap (reserved=4194304KB, committed=4194304KB)
+                            (mmap: reserved=4194304KB, committed=4194304KB)
+
+-                     Class (reserved=1056932KB, committed=5028KB)
+                            (classes #1048)
+                            (  instance classes #920, array classes #128)
+                            (malloc=164KB #1544)
+                            (mmap: reserved=1056768KB, committed=4864KB)
+                            (  Metadata:   )
+                            (    reserved=8192KB, committed=4352KB)
+                            (    used=984KB)
+                            (    free=3368KB)
+                            (    waste=0KB =0,00%)
+                            (  Class space:)
+                            (    reserved=1048576KB, committed=512KB)
+                            (    used=122KB)
+                            (    free=390KB)
+                            (    waste=0KB =0,00%)
+
+-                    Thread (reserved=18559KB, committed=963KB)
+                            (thread #17)
+                            (stack: reserved=18476KB, committed=880KB)
+                            (malloc=62KB #110)
+                            (arena=21KB #34)
+
+-                      Code (reserved=247747KB, committed=7607KB)
+                            (malloc=59KB #624)
+                            (mmap: reserved=247688KB, committed=7548KB)
+
+-                        GC (reserved=216659KB, committed=216659KB)
+                            (malloc=27711KB #14741)
+                            (mmap: reserved=188948KB, committed=188948KB)
+
+-                  Compiler (reserved=579KB, committed=579KB)
+                            (malloc=3KB #43)
+                            (arena=576KB #12)
+
+-                  Internal (reserved=561KB, committed=561KB)
+                            (malloc=525KB #962)
+                            (mmap: reserved=36KB, committed=36KB)
+
+-                     Other (reserved=8KB, committed=8KB)
+                            (malloc=8KB #1)
+
+-                    Symbol (reserved=1174KB, committed=1174KB)
+                            (malloc=814KB #2378)
+                            (arena=360KB #1)
+
+-    Native Memory Tracking (reserved=357KB, committed=357KB)
+                            (malloc=5KB #68)
+                            (tracking overhead=352KB)
+
+-        Shared class space (reserved=11208KB, committed=11208KB)
+                            (mmap: reserved=11208KB, committed=11208KB)
+
+-               Arena Chunk (reserved=707KB, committed=707KB)
+                            (malloc=707KB)
+
+-                   Logging (reserved=5KB, committed=5KB)
+                            (malloc=5KB #197)
+
+-                 Arguments (reserved=20KB, committed=20KB)
+                            (malloc=20KB #497)
+
+-                    Module (reserved=59KB, committed=59KB)
+                            (malloc=59KB #1034)
+
+-                 Safepoint (reserved=8KB, committed=8KB)
+                            (mmap: reserved=8KB, committed=8KB)
+
+-           Synchronization (reserved=36KB, committed=36KB)
+                            (malloc=36KB #212)
+
+Running application with Java version [13]
+-XX:+UnlockDiagnosticVMOptions
+-XX:+PrintNMTStatistics
+-XX:NativeMemoryTracking=summary
+-XX:+UnlockExperimentalVMOptions
+-XX:+UseShenandoahGC
+-Xms4g
+-Xmx4g
+-XX:+AlwaysPreTouch
+-Didea.launcher.port=42755
+-Didea.launcher.bin.path=/home/ionutbalosin/Kit/idea-IC-191.6707.61/bin
+-Dfile.encoding=UTF-8
+
+Native Memory Tracking:
+
+Total: reserved=5668758KB, committed=4293538KB
+-                 Java Heap (reserved=4194304KB, committed=4194304KB)
+                            (mmap: reserved=4194304KB, committed=4194304KB)
+
+-                     Class (reserved=1056933KB, committed=5029KB)
+                            (classes #1063)
+                            (  instance classes #932, array classes #131)
+                            (malloc=165KB #1566)
+                            (mmap: reserved=1056768KB, committed=4864KB)
+                            (  Metadata:   )
+                            (    reserved=8192KB, committed=4352KB)
+                            (    used=1007KB)
+                            (    free=3345KB)
+                            (    waste=0KB =0,00%)
+                            (  Class space:)
+                            (    reserved=1048576KB, committed=512KB)
+                            (    used=123KB)
+                            (    free=389KB)
+                            (    waste=0KB =0,00%)
+
+-                    Thread (reserved=18557KB, committed=925KB)
+                            (thread #17)
+                            (stack: reserved=18472KB, committed=840KB)
+                            (malloc=64KB #109)
+                            (arena=21KB #34)
+
+-                      Code (reserved=247750KB, committed=7610KB)
+                            (malloc=62KB #652)
+                            (mmap: reserved=247688KB, committed=7548KB)
+
+-                        GC (reserved=136082KB, committed=70538KB)
+                            (malloc=4994KB #4338)
+                            (mmap: reserved=131088KB, committed=65544KB)
+
+-                  Compiler (reserved=147KB, committed=147KB)
+                            (malloc=17KB #40)
+                            (arena=131KB #5)
+
+-                  Internal (reserved=1270KB, committed=1270KB)
+                            (malloc=1234KB #1066)
+                            (mmap: reserved=36KB, committed=36KB)
+
+-                     Other (reserved=8KB, committed=8KB)
+                            (malloc=8KB #1)
+
+-                    Symbol (reserved=1204KB, committed=1204KB)
+                            (malloc=844KB #4324)
+                            (arena=360KB #1)
+
+-    Native Memory Tracking (reserved=226KB, committed=226KB)
+                            (malloc=5KB #59)
+                            (tracking overhead=221KB)
+
+-        Shared class space (reserved=11208KB, committed=11208KB)
+                            (mmap: reserved=11208KB, committed=11208KB)
+
+-               Arena Chunk (reserved=945KB, committed=945KB)
+                            (malloc=945KB)
+
+-                   Logging (reserved=5KB, committed=5KB)
+                            (malloc=5KB #197)
+
+-                 Arguments (reserved=20KB, committed=20KB)
+                            (malloc=20KB #497)
+
+-                    Module (reserved=59KB, committed=59KB)
+                            (malloc=59KB #1034)
+
+-                 Safepoint (reserved=8KB, committed=8KB)
+                            (mmap: reserved=8KB, committed=8KB)
+
+-           Synchronization (reserved=33KB, committed=33KB)
+                            (malloc=33KB #194)
+
+
+Running application with Java version [13]
+-XX:+UnlockDiagnosticVMOptions
+-XX:+PrintNMTStatistics
+-XX:NativeMemoryTracking=summary
+-XX:+UnlockExperimentalVMOptions
+-XX:+UseZGC
+-Xms4g
+-Xmx4g
+-XX:+AlwaysPreTouch
+-Didea.launcher.port=46693
+-Didea.launcher.bin.path=/home/ionutbalosin/Kit/idea-IC-191.6707.61/bin
+-Dfile.encoding=UTF-8
+
+Native Memory Tracking:
+
+Total: reserved=17188579308KB, committed=4280944KB
+-                 Java Heap (reserved=17179869184KB, committed=4194304KB)
+                            (mmap: reserved=17179869184KB, committed=4194304KB)
+
+-                     Class (reserved=8351KB, committed=7583KB)
+                            (classes #1054)
+                            (  instance classes #930, array classes #124)
+                            (malloc=159KB #1532)
+                            (mmap: reserved=8192KB, committed=7424KB)
+                            (  Metadata:   )
+                            (    reserved=8192KB, committed=7424KB)
+                            (    used=7294KB)
+                            (    free=130KB)
+                            (    waste=0KB =0,00%)
+
+-                    Thread (reserved=27761KB, committed=1025KB)
+                            (thread #26)
+                            (stack: reserved=27692KB, committed=956KB)
+                            (malloc=38KB #164)
+                            (arena=32KB #52)
+
+-                      Code (reserved=247751KB, committed=7611KB)
+                            (malloc=63KB #697)
+                            (mmap: reserved=247688KB, committed=7548KB)
+
+-                        GC (reserved=8421751KB, committed=65911KB)
+                            (malloc=375KB #568)
+                            (mmap: reserved=8421376KB, committed=65536KB)
+
+-                  Compiler (reserved=148KB, committed=148KB)
+                            (malloc=17KB #49)
+                            (arena=131KB #5)
+
+-                  Internal (reserved=306KB, committed=306KB)
+                            (malloc=270KB #814)
+                            (mmap: reserved=36KB, committed=36KB)
+
+-                     Other (reserved=8KB, committed=8KB)
+                            (malloc=8KB #1)
+
+-                    Symbol (reserved=2403KB, committed=2403KB)
+                            (malloc=1308KB #32399)
+                            (arena=1095KB #1)
+
+-    Native Memory Tracking (reserved=605KB, committed=605KB)
+                            (malloc=5KB #65)
+                            (tracking overhead=599KB)
+
+-               Arena Chunk (reserved=912KB, committed=912KB)
+                            (malloc=912KB)
+
+-                   Logging (reserved=5KB, committed=5KB)
+                            (malloc=5KB #197)
+
+-                 Arguments (reserved=20KB, committed=20KB)
+                            (malloc=20KB #494)
+
+-                    Module (reserved=59KB, committed=59KB)
+                            (malloc=59KB #1034)
+
+-                 Safepoint (reserved=8KB, committed=8KB)
+                            (mmap: reserved=8KB, committed=8KB)
+
+-           Synchronization (reserved=36KB, committed=36KB)
+                            (malloc=36KB #213)
+
+Running application with Java version [13]
+-XX:+UnlockDiagnosticVMOptions
+-XX:+PrintNMTStatistics
+-XX:NativeMemoryTracking=summary
+-XX:+UnlockExperimentalVMOptions
+-XX:+UseEpsilonGC
+-Xms4g
+-Xmx4g
+-XX:+AlwaysPreTouch
+-Didea.launcher.port=45913
+-Didea.launcher.bin.path=/home/ionutbalosin/Kit/idea-IC-191.6707.61/bin
+-Dfile.encoding=UTF-8
+
+Native Memory Tracking:
+
+Total: reserved=5526723KB, committed=4222163KB
+-                 Java Heap (reserved=4194304KB, committed=4194304KB)
+                            (mmap: reserved=4194304KB, committed=4194304KB)
+
+-                     Class (reserved=1056933KB, committed=5029KB)
+                            (classes #1063)
+                            (  instance classes #932, array classes #131)
+                            (malloc=165KB #1555)
+                            (mmap: reserved=1056768KB, committed=4864KB)
+                            (  Metadata:   )
+                            (    reserved=8192KB, committed=4352KB)
+                            (    used=1014KB)
+                            (    free=3338KB)
+                            (    waste=0KB =0,00%)
+                            (  Class space:)
+                            (    reserved=1048576KB, committed=512KB)
+                            (    used=123KB)
+                            (    free=389KB)
+                            (    waste=0KB =0,00%)
+
+-                    Thread (reserved=13417KB, committed=901KB)
+                            (thread #12)
+                            (stack: reserved=13356KB, committed=840KB)
+                            (malloc=46KB #80)
+                            (arena=15KB #24)
+
+-                      Code (reserved=247748KB, committed=7608KB)
+                            (malloc=60KB #642)
+                            (mmap: reserved=247688KB, committed=7548KB)
+
+-                        GC (reserved=29KB, committed=29KB)
+                            (malloc=29KB #97)
+
+-                  Compiler (reserved=148KB, committed=148KB)
+                            (malloc=17KB #46)
+                            (arena=131KB #5)
+
+-                  Internal (reserved=537KB, committed=537KB)
+                            (malloc=501KB #748)
+                            (mmap: reserved=36KB, committed=36KB)
+
+-                     Other (reserved=8KB, committed=8KB)
+                            (malloc=8KB #1)
+
+-                    Symbol (reserved=1204KB, committed=1204KB)
+                            (malloc=844KB #4322)
+                            (arena=360KB #1)
+
+-    Native Memory Tracking (reserved=153KB, committed=153KB)
+                            (malloc=4KB #49)
+                            (tracking overhead=149KB)
+
+-        Shared class space (reserved=11208KB, committed=11208KB)
+                            (mmap: reserved=11208KB, committed=11208KB)
+
+-               Arena Chunk (reserved=911KB, committed=911KB)
+                            (malloc=911KB)
+
+-                   Logging (reserved=5KB, committed=5KB)
+                            (malloc=5KB #197)
+
+-                 Arguments (reserved=20KB, committed=20KB)
+                            (malloc=20KB #497)
+
+-                    Module (reserved=59KB, committed=59KB)
+                            (malloc=59KB #1034)
+
+-                 Safepoint (reserved=8KB, committed=8KB)
+                            (mmap: reserved=8KB, committed=8KB)
+
+-           Synchronization (reserved=32KB, committed=32KB)
+                            (malloc=32KB #183)
